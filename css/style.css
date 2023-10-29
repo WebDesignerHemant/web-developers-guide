@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #262626;
+}
+
+::selection {
+  background-color: #374259;
+  color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+li {
+  padding-bottom: 15px;
+  list-style-type: none;
+}
+
+.wrapper {
+  padding: 0 12px;
+  margin: 50px auto 0;
+}
+
+.headingContent {
+  padding-bottom: 20px;
+  font-weight: 500;
+  border-bottom: 1px solid #00000050;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav {
+  padding-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 80%;
+    margin: 50px auto 0;
+  }  
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    width: 40%;
+  }
+}
